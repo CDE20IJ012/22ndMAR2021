@@ -1,0 +1,57 @@
+Data Structures?
+
+What was the first data structure?
+
+Arrays :
+
+Other Data Structures 
+* LinkedList
+* Stacks
+* Queues
+* Trees
+* Graphs
+-------------------------------------------------------------------------------------------------------
+
+   List<String> list=new LinkedList<>();
+------------------------------------------------------------------------------------------------------
+
+class Node {
+       private String name;
+       private Node next;
+}
+
+class UserLinkedList {
+
+    // add new nodes
+    // updating nodes
+    // deleting nodes
+  }
+
+class Main  {
+// To control the entire flow of the code
+}
+
+
+
+
+------------------------------------------------------------------------------
+Delete a node 
+
+   1) A node from the start can be deleted===> while deleting the 
+       first node , first node's next address should be stored in the head.
+       and which keeps on tracking rest of the nodes
+   2) A node from the middle can be deleted 
+   3) A node from the end can be deleted
+   ( We have to update the previous node with the next of the current node)
+
+---------------------------------------------------------------------------------------------
+
+From your side just put some validation for if the name is not found for deleting or updating.
+Just complete for updating the name.
+-----------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------
+
+
+
